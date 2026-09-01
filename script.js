@@ -6,41 +6,41 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas =[
     {
-        enunciado: "O ensino de programação e robótica tem ganhado espaço nas escolas. Você acredita que aprender a programar é essencial para a formação dos jovens, mesmo para quem não quer seguir carreira em tecnologia?",
+        enunciado: "Como você imagina que a Inteligência Artificial estará presente no nosso dia a dia no futuro?",
         alternativas: [
             {
-                texto: "Sim, pois desenvolve o raciocínio lógico, a resolução de problemas e a capacidade de estruturar pensamentos de forma organizada.",
-                afirmacao: "A programação vai muito além dos códigos: ela ensina uma forma estruturada de pensar que ajuda na solução de desafios em qualquer área do conhecimento."
+                texto: "A IA estará cada vez mais presente em tarefas do cotidiano, ajudando nos estudos, no trabalho, na saúde e na organização da rotina.",
+                afirmacao: "A Inteligência Artificial tende a se tornar uma ferramenta cada vez mais presente no cotidiano, auxiliando as pessoas em diferentes atividades."
             },
             {
-                texto: "Não, pois é um conhecimento muito específico que só traz benefícios reais para quem pretende trabalhar na área de tecnologia.",
-                afirmacao: "Embora pareça uma habilidade estritamente técnica, a lógica de programação desenvolve competências universais e cada vez mais cobradas no mercado."
+                texto: "A IA continuará sendo utilizada principalmente em áreas específicas, sem fazer parte de grande parte das atividades do dia a dia.",
+                afirmacao: "Mesmo com o avanço da tecnologia, a utilização da Inteligência Artificial pode continuar concentrada em determinadas áreas e depender das necessidades de cada pessoa."
             }
         ]
     },
     {
-        enunciado: "Muitos iniciantes acham a área de robótica intimidadora por envolver código e eletrônica. Qual é a abordagem mais recomendada para quem quer dar os primeiros passos?",
+        enunciado: "Com o avanço da Inteligência Artificial, muitas profissões podem passar por mudanças. Você acredita que a IA substituirá grande parte dos trabalhadores no futuro?",
         alternativas: [
             {
-                texto: "Começar com linguagens visuais baseadas em blocos e kits educativos simples de robótica.",
-                afirmacao: "Iniciar com ferramentas visuais permite aprender a lógica fundamental sem a frustração de cometer erros de sintaxe e digitação no código."
+                texto: "Sim, algumas profissões poderão ser automatizadas, principalmente aquelas que envolvem tarefas repetitivas e previsíveis.",
+                afirmacao: "O avanço da automação pode transformar o mercado de trabalho, fazendo com que algumas funções sejam substituídas ou profundamente modificadas pela Inteligência Artificial."
             },
             {
-                texto: "Aprender diretamente linguagens complexas como C++ e montar circuitos do zero sem kits prontos.",
-                afirmacao: "Tentar dominar conceitos avançados de eletrônica e código ao mesmo tempo pode tornar o aprendizado muito árduo e desmotivar o iniciante."
+                texto: "Não totalmente, pois a IA deverá atuar principalmente como uma ferramenta de apoio aos trabalhadores.",
+                afirmacao: "A Inteligência Artificial pode complementar o trabalho humano, enquanto habilidades como criatividade, comunicação, empatia e tomada de decisões continuam sendo importantes."
             }
         ]
     },
     {
-        enunciado: "Kits de robótica e componentes eletrônicos podem ter custos elevados. O uso de simuladores virtuais e softwares gratuitos é uma alternativa viável para quem quer aprender sem gastar muito?",
+        enunciado: "Pensando no futuro, qual deve ser uma das principais preocupações da sociedade em relação ao avanço da Inteligência Artificial?",
         alternativas: [
             {
-                texto: "Sim, pois os simuladores virtuais permitem testar circuitos e códigos em tempo real sem risco de danificar peças físicas.",
-                afirmacao: "Os ambientes virtuais democratizam o acesso à robótica, permitindo que qualquer pessoa pratique e erre com segurança antes de investir em componentes."
+                texto: "Garantir que a IA seja desenvolvida e utilizada de maneira ética, segura e responsável.",
+                afirmacao: "O futuro da Inteligência Artificial dependerá não apenas do avanço tecnológico, mas também da criação de regras e práticas que garantam seu uso responsável e seguro."
             },
             {
-                texto: "Não faz muita diferença, pois a experiência prática de manusear peças físicas é insubstituível para o aprendizado.",
-                afirmacao: "Apesar do contato físico ser enriquecedor, a simulação digital já oferece precisão suficiente para construir uma base sólida e acessível em robótica."
+                texto: "Permitir que a tecnologia avance livremente, sem muitas regras ou limitações.",
+                afirmacao: "Um desenvolvimento sem cuidados pode aumentar riscos relacionados à privacidade, à segurança, à desinformação e ao uso inadequado da Inteligência Artificial."
             }
         ]
     }
