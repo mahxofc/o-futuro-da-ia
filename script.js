@@ -6,46 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Atualmente o hábito de leitura não é comum entre os jovens, a leitura é algo importânte para a formação desses jovens?",
+        enunciado: "Como a Inteligência Artificial pode influenciar o futuro da sociedade?",
         alternativas: [
             {
-                texto: "Sim, já que, além de inumeros livros servirem de base para vestibulares, eles podem trazer conhecimentos de assuntos diversos e expandir o vacabulario do leitor",
-                afirmacao: "Os livros ainda são de uma grande importância para os estudos e para a formação da etica e moral da população, sendo sem dúvidas um grande alicerce da sociedade."
+                texto: "A IA pode facilitar diversas atividades do dia a dia, auxiliar em áreas como educação, medicina e tecnologia e aumentar a produtividade.",
+                afirmacao: "A Inteligência Artificial pode transformar a sociedade ao automatizar tarefas, auxiliar profissionais e criar novas possibilidades em diferentes áreas."
             },
             {
-                texto: "A leitura é indiferente, já que, atualmente não são necessarios livros para os estudos ou enterterimento, já que, atualmente não são necessarios livros para estudos levando em conta que hoje é possível encomtrar ambos nas redes sociais",
-                afirmacao: "Apesar do grande acesso a informaçõese conteúdos que as redes sociais nos proporcionam, os livros não deixam de ser essenciais na sociedade seja para estudos ou para obter conhecimento."
+                texto: "A IA terá pouca influência, pois muitas atividades continuarão sendo realizadas da mesma forma que são atualmente.",
+                afirmacao: "Apesar de algumas atividades continuarem dependendo das pessoas, a Inteligência Artificial tende a estar cada vez mais presente na sociedade e modificar a maneira como realizamos diversas tarefas."
             }
         ]
     },
     {
-        enunciado: "Algumas pessoas tem muita dificuldade para começarem no mundo da leitura, dito isso qual seria a maneira mais recomendada para se começar a ler?",
+        enunciado: "Com o avanço da Inteligência Artificial, muitas profissões poderão ser modificadas ou automatizadas. Isso significa que a IA irá substituir todos os trabalhadores?",
         alternativas: [
             {
-                texto: "Ler livros pequenos, de facíl entendimento e que sejam de assuntos de interesse do leitor.",
-                afirmacao: "Para quem não  tem o hábito de ler, porém tem vontadede iniciar no mundo da leitura o mais indicado seria ler livros pequenos e de assuntos que sejam de interesse do leitor para despertar o interesse da leitura e tornar a mesma um habito."
+                texto: "Não, pois a IA pode substituir algumas tarefas, mas também pode criar novas profissões e fazer com que os trabalhadores desenvolvam novas habilidades.",
+                afirmacao: "A evolução da Inteligência Artificial pode transformar o mercado de trabalho, substituindo algumas tarefas e criando novas oportunidades que exigem diferentes conhecimentos e habilidades."
             },
             {
-                texto: "Ler livros didáticos e de autores conhecidos.",
-                afirmacao: "Para quem tem interessede começar na leitura não seria ideal começar diretamente pelos clássicos já que a leitura dos mesmos pode ser mais dificil dificultando assim a criação do habito da leitura."
+                texto: "Sim, porque no futuro as máquinas poderão realizar praticamente todas as atividades que atualmente são feitas pelos seres humanos.",
+                afirmacao: "Embora a IA possa automatizar diversas tarefas, existem atividades que dependem de criatividade, empatia, pensamento crítico e interação humana, tornando improvável que todas as profissões sejam completamente substituídas."
             }
         ]
     },
     {
-        enunciado: "Atualmente vemos um grande aumentos nos valores dos livros físicos, oque dificulta a aquisição dos mesmos, a leitura digital vem se popularizou entre os leitores nos ultimos anos em parte pelos preços mais acessiveis, então seria ela uma alternativa viavel aos livros físicos?",
+        enunciado: "Com o crescimento da Inteligência Artificial, também aumentam as preocupações relacionadas ao seu uso. Como a sociedade pode se preparar para esse futuro?",
         alternativas: [
             {
-                texto: "Provavelmente, já que iria possibilitar uma maior aquisição por parte da população.",
-                afirmacao: "Já para quem não  tem condições de adquirir livros físicos os livros online são uma otima opção, pois permite a aquisição dos mesmos por um preço muito menor ou até mesmo gratuitamente, o que sem duvidas pode abrir grandes portas para esses leitores."
+                texto: "Criando regras para o uso responsável da IA, ensinando a população sobre a tecnologia e garantindo que ela seja utilizada de maneira segura e ética.",
+                afirmacao: "Para que a Inteligência Artificial seja utilizada de forma positiva, é importante investir em educação, segurança, transparência e regras que diminuam possíveis impactos negativos da tecnologia."
             },
             {
-                texto: "Não teria grande importância já que grande parte da população continuaria adquirindo livros físicos apesar dos preços.",
-                afirmacao: "Apesar do consumo de livros físicos ainda ser maioria os livros oline permitem que pessoas que não podem adquirir livros físicos tenham acesso a leitura, podendo gerar grandes oportunidades para esses leitores."
+                texto: "Deixar que a tecnologia evolua sem regras, pois qualquer tentativa de controlar a IA poderia impedir seu desenvolvimento.",
+                afirmacao: "O desenvolvimento da Inteligência Artificial precisa ser acompanhado de responsabilidade, pois seu uso sem limites pode aumentar problemas relacionados à privacidade, desinformação, segurança e desigualdade."
             }
         ]
     },
 ];
-
 
 let atual = 0;
 let perguntaAtual;
@@ -79,7 +78,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Sobre a leitura...";
+    caixaPerguntas.textContent = "Sobre o futuro da Inteligência Artificial...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
